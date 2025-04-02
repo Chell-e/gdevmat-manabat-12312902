@@ -111,7 +111,6 @@ void graphFunction3(float amplitude, float frequency)
   {
     circle(x, (float)Math.sin((x + time) * frequency) * amplitude, 5);
   }
-
 }
 
 void keyPressed()
