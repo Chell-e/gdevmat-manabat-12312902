@@ -7,8 +7,7 @@ void setup()
 PVector mousePos()
 {
   float x = mouseX - Window.windowWidth / 2;
-  float y = -(mouseY - Window.windowHeight / 2);
-  
+  float y = -(mouseY - Window.windowHeight / 2); 
   return new PVector(x, y);
 }
 
